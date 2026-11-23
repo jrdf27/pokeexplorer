@@ -1,0 +1,36 @@
+.pokemon__search {
+    display: flex;
+    gap: 12px;
+    max-width: 500px;
+    margin: 30px auto;
+  }
+  
+  .pokemon__input {
+    min-width: 0;
+    flex: 1;
+    padding: 14px;
+    border: 1px solid #64748b;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .pokemon__button {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #ffcc00;
+    color: #111827;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .pokemon__button:hover {
+    background: #f59e0b;
+  }
+
+  @media (max-width: 480px) {
+  
+    .pokemon__search {
+      flex-direction: column;
+    }
+  }
